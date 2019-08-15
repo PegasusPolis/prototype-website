@@ -1,0 +1,43 @@
+/* Footers */
+
+.footer2{
+    color: white;
+    padding: 50px;
+    background-color: #3c3c3B;
+  }
+
+  .footer2-links{
+    padding: 20px;
+    background-color: #464645;
+  }
+
+  .footer2-links .col-sm-4{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+
+  .footer2-links a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .polis-links{
+    color: inherit;
+    text-align: right;
+    border-right: 2px solid #ccc!important;
+  }
+
+  .general-links{
+    border-right: 2px solid #ccc!important;
+    text-align: right;
+  }
+
+
+  .newsletter-sub{
+    text-align: center;
+  }
+
+  .footer2-info{
+    padding-top: 20px;
+  }

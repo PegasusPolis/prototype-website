@@ -1,0 +1,16 @@
+ /* Use Cases */
+
+ .use-cases{
+    background-color: #edf3fa;
+    padding: 60px; 
+    text-align: center;
+    color: #29235c;
+  }
+
+  .use-cases .col-md{
+    margin: 20px;
+  }
+
+  .uc-separator{
+    border-right: 2px solid #ccc !important;
+  }

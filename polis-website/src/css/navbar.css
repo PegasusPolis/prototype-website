@@ -1,0 +1,39 @@
+  /* Navbar */
+
+  .navbar {
+    padding-top: 30px;
+    padding-left: 50px;
+    background-color: transparent !important;
+  }
+
+  .brand-img {
+    height: 40;
+    position: relative;
+    display: inline-block;
+  }
+
+  .brand-img .brand2 {
+      display: none;
+      top: 0;
+      left: 0;
+      z-index: 99;
+  }
+
+  .navbar-collapse{
+    text-align: right;
+    padding-right: 10px;
+    margin-right: 50px;
+    background-color: none;
+  }
+
+  .nav-item a{
+    color: white !important;
+  }
+
+  .collapse-button{
+    padding-right: 50px;
+  }
+
+  .navbar-toggler {
+    background-color: rgb(255, 255, 255, 0.75);  
+  }

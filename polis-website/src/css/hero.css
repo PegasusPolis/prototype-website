@@ -1,0 +1,36 @@
+/* Hero Image/ Main view*/
+  
+.hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 11, 29, 0.7)), url('../assets/img/hero-header.jpg');
+    height: 90vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+  }
+
+  .hero-inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+  }
+
+  .hero-isotype{
+    max-height: 200px;
+  }
+
+  .hero-isotype img{
+    max-height: 200px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  .hero-text h1 {
+    margin: 30px;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+  }
