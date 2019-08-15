@@ -13,7 +13,7 @@ class Footer2 extends React.Component {
                 </div>
                 <div className="container">
                     <div className="footer2-links row">
-                        <div className="col-sm-4 polis-links">
+                        <div className="col-md-4 footer-links">
                             <div>
                                 <ul>
                                     <a href="#">
@@ -31,26 +31,26 @@ class Footer2 extends React.Component {
                                 </ul>
                             </div>
                         </div>
-                        <div className="col-sm-4 general-links">
+                        <div className="col-md-4 footer-links">
                             <div>
                                 <ul>
-                                    <a href="#">
+                                    <a href="https://polispay.com/home">
                                         <li>POLISPAY</li>
                                     </a>
-                                    <a href="#">
+                                    <a href="https://polispay.com/home">
                                         <li>POLISPAY SHIFT</li>
                                     </a>
-                                    <a href="#">
+                                    <a href="https://www.polisnodes.io">
                                         <li>POLIS NODES</li>
                                     </a>
                                 </ul>
                             </div>
                         </div>
-                        <div className="col-sm-4 newsletter-sub">
+                        <div className="col-md-4 newsletter-sub">
                             <div>
                                 <h4>Subscribe to our newsletter</h4>
                                 <div className="input-group mb-3">
-                                    <input type="text" class="form-control" placeholder="E-mail goes here"
+                                    <input type="text" class="form-control" placeholder="E-mail"
                                         aria-label="Recipient's username" aria-describedby="basic-addon2" />
                                     <div class="input-group-append">
                                         <button class="btn action-btn" type="button">Subscribe</button>
@@ -63,7 +63,7 @@ class Footer2 extends React.Component {
                 
                 <div className="footer2-info">
                     <img src={devByKindynos} height="60" alt="" />
-                    <p style={{marginRight: 100 + 'em'}}> © 2019, Kindynos</p>
+                    <p> © 2019, Kindynos</p>
                 </div>
             </section>
         );

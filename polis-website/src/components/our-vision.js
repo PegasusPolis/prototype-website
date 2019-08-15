@@ -1,15 +1,17 @@
 import React from 'react';
 import '../css/our-vision.css';
 
-import compass from '../assets/img/drafting-compass.svg';
-import DAO from '../assets/img/recycle.svg';
-import Social from '../assets/img/users.svg';
-import community from '../assets/img/people-carry.svg';
+import { faDraftingCompass, faUser } from "@fortawesome/free-solid-svg-icons";
+import { faRecycle } from "@fortawesome/free-solid-svg-icons";
+import { faUsers } from "@fortawesome/free-solid-svg-icons";
+import { faPeopleCarry } from "@fortawesome/free-solid-svg-icons";
 
-import discord from '../assets/img/discord.svg';
-import telegram from '../assets/img/telegram.svg';
-import twitter from '../assets/img/twitter.svg';
-import bitcoin from '../assets/img/bitcoin.svg';
+import { faDiscord } from "@fortawesome/free-brands-svg-icons";
+import { faTelegram } from "@fortawesome/free-brands-svg-icons";
+import { faTwitter } from "@fortawesome/free-brands-svg-icons";
+import { faBitcoin } from "@fortawesome/free-brands-svg-icons";
+
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 
 class OurVision extends React.Component {
@@ -24,7 +26,7 @@ class OurVision extends React.Component {
             <div className="container">
                 <div className="row">
                     <div className="col-sm ov-content">
-                        <img className="font-awesome-img" src={compass} height="50px" alt="" />
+                    <FontAwesomeIcon icon={faDraftingCompass} size="3x"/>
                         <h3> Innovation</h3>
                     </div>
                     <div className="col-md">
@@ -54,7 +56,7 @@ class OurVision extends React.Component {
                             trade freely.</p>
                     </div>
                     <div className="col-sm ov-content">
-                        <img className="font-awesome-img" src={DAO} height="50px" alt="" />
+                    <FontAwesomeIcon icon={faRecycle} size="3x"/>
                         <h3>DAO</h3>
                     </div>
 
@@ -65,7 +67,7 @@ class OurVision extends React.Component {
             <div className="container">
                 <div className="row">
                     <div className="col-sm ov-content">
-                        <img className="font-awesome-img" src={Social} height="50px" alt="" />
+                    <FontAwesomeIcon icon={faUsers} size="3x"/>
                         <h3> Social</h3>
                     </div>
                     <div className="col-md">
@@ -86,17 +88,17 @@ class OurVision extends React.Component {
                 <div className="row">
                     <div className="col-sm ov-content">
                         <h3>Follow us!</h3>
-                        <a href="#">
-                            <img className="font-awesome-img" src={discord} height="30px" alt="" />
+                        <a href="https://discord.gg/5CuBnZB">
+                        <FontAwesomeIcon  className="font-awesome-icon" icon={faDiscord} size="2x" />
                         </a>
-                        <a href="#">
-                            <img className="font-awesome-img" src={telegram} height="30px" alt="" />
+                        <a href="https://t.me/PolisPayOfficial">
+                        <FontAwesomeIcon className="font-awesome-icon" icon={faTelegram} size="2x" />
                         </a>
-                        <a href="#">
-                            <img className="font-awesome-img" src={twitter} height="30px" alt="" />
+                        <a href="https://twitter.com/PolisBlockchain">
+                        <FontAwesomeIcon className="font-awesome-icon" icon={faTwitter} size="2x" />
                         </a>
-                        <a href="#">
-                            <img className="font-awesome-img" src={bitcoin} height="30px" alt="" />
+                        <a href="https://bitcointalk.org/index.php?topic=2627897.0">
+                        <FontAwesomeIcon className="font-awesome-icon" icon={faBitcoin} size="2x" />
                         </a>
                     </div>
                     <div className="col-md">
@@ -105,7 +107,7 @@ class OurVision extends React.Component {
                             trade freely.</p>
                     </div>
                     <div className="col-sm ov-content">
-                        <img className="font-awesome-img" src={community} height="50px" alt="" />
+                    <FontAwesomeIcon icon={faPeopleCarry} size="3x"/>
                         <h3>Community</h3>
                     </div>
 

@@ -35,9 +35,9 @@
   }
 
   .action-btn{
-    background-color: #ffB000;
-    color: white;
-    font-weight: bold;
+    background-color: #ffB000 !important;
+    color: white !important;
+    font-weight: bold !important;
   }
 
   @media only screen and (max-width: 991px){
@@ -48,8 +48,8 @@
 
   @media only screen and (max-width: 760px){
 
-    .hero-isotype img{
-      max-height: 150px;
+    .hero-isotype{
+      max-height: 150px !important;
     }
 
     .vision-btn{
@@ -70,6 +70,12 @@
 
     .exchanges-list{
       padding-top: 20px;
+    }
+
+    .footer-links{
+      border-right: 0px !important;
+      border-bottom: 2px solid #ccc!important;
+      margin-bottom: 20px;
     }
 
   }

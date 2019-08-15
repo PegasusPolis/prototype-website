@@ -21,7 +21,9 @@ class TradePolis extends React.Component {
                 <div className="col-md-5  polis-shift-img">
                     <div>
                         <img src={polisPayShift} height="70" alt="" />
-                        <h3> Trade Polis through PolisPay Shift </h3>
+                        <a href="https://polispay.com/home">
+                            <h3> Trade Polis through PolisPay Shift </h3>
+                        </a>
                     </div>
                 </div>
 

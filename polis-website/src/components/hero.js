@@ -12,9 +12,7 @@ class Hero extends React.Component {
                 <NavBar />
                 <div class="hero-inner">
                     <div class="container">
-                        <div class="hero-isotype">
-                            <img class="center" src={polisIsotype} height='40px' alt='' />
-                        </div>
+                        <img class="hero-isotype" src={polisIsotype} alt='' />
                         <div class="hero-text">
                             <h1>Use Polis for instant payments with our open-source, community run network.</h1>
                         </div>

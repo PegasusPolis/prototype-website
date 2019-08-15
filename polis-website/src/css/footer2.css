@@ -11,7 +11,7 @@
     background-color: #464645;
   }
 
-  .footer2-links .col-sm-4{
+  .footer2-links .col-md-4{
     align-items: center;
     justify-content: center;
     display: flex;
@@ -22,17 +22,14 @@
     text-decoration: none;
   }
 
-  .polis-links{
-    color: inherit;
-    text-align: right;
-    border-right: 2px solid #ccc!important;
+  .footer2-links a:hover {
+    color: white;
   }
 
-  .general-links{
-    border-right: 2px solid #ccc!important;
+  .footer-links{
     text-align: right;
+    border-right: 2px solid #ccc;
   }
-
 
   .newsletter-sub{
     text-align: center;
@@ -40,4 +37,10 @@
 
   .footer2-info{
     padding-top: 20px;
+    display: inline;
+  }
+
+  .footer2-info p{
+    display: inherit;
+    float: right;
   }

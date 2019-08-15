@@ -8,7 +8,7 @@ class NavBar extends React.Component {
     render() {
         return (
 
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <nav class="navbar navbar-expand-lg navbar-dark">
             <a class="navbar-brand" href="#">
                 <div class="brand-img">
                     <img class="brand1" src={polisLogo} height="40" alt="" />
